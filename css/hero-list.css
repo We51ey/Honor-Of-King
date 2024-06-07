@@ -1,0 +1,168 @@
+.hero-box {
+	float: left;
+	width: 772px;
+	height: 116px;
+	background-color: #336699;
+	color: #a6afbc;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	border-radius: 10px 0 0 0;
+}
+
+.freeherotitle {
+	display: block;
+	height: 10px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.freehero {
+	width: 710px;
+	margin-left: 30px;
+	height: 75px;
+	overflow: hidden;
+	background-color: #336699;
+	text-align: center;
+}
+
+.moreherotitle {
+	margin-top: 4px;
+	line-height: 17px;
+}
+
+.freehero>a {
+	text-decoration: none;
+	color: grey;
+}
+
+.freehero>a:hover {
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+.freehero>ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.freehero>ul li {
+	margin: 3px;
+	width: 68px;
+	height: 68px;
+	float: left;
+	transition: width 0.25s;
+	text-align: left;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+
+.freehero>ul li>img {
+	margin-left: 2px;
+	width: 68px;
+	height: 68px;
+	transition: opacity 0.2s;
+}
+
+.freehero>ul li:first-child {
+	width: 225px;
+}
+
+.freehero>ul li:first-child>img {
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.freehero>ul:hover li:first-child>img {
+	opacity: 1;
+}
+
+
+.freehero>ul li:nth-child(1) {
+	background: url(../img/1-freehover.png) no-repeat;
+	line-height: 60px;
+	background-color: #336699;
+}
+
+.freehero>ul li:nth-child(2) {
+	background: url(../img/2-freehover.png) no-repeat;
+	line-height: 60px;
+	background-color: #336699;
+}
+
+.freehero>ul li:nth-child(3) {
+	background: url(../img/3-freehover.png) no-repeat;
+	line-height: 60px;
+	background-color: #336699;
+}
+
+.freehero>ul li:nth-child(4) {
+	background: url(../img/4-freehover.png) no-repeat;
+	line-height: 60px;
+	background-color: #336699;
+}
+
+.freehero>ul li:nth-child(5) {
+	background: url(../img/5-freehover.png) no-repeat;
+	line-height: 60px;
+	background-color: #336699;
+}
+
+.freehero>ul li:nth-child(6) {
+	background: url(../img/6-freehover.png) no-repeat;
+	line-height: 60px;
+	background-color: #336699;
+}
+
+.freehero>ul li:nth-child(7) {
+	background: url(../img/7-freehover.png) no-repeat;
+	line-height: 60px;
+	background-color: #336699;
+}
+
+.freehero>ul:hover li {
+	width: 68px;
+}
+
+
+.freehero>ul li:hover {
+	width: 225px;
+}
+
+.freehero>ul:hover li:hover>img {
+	opacity: 0;
+}
+
+.log-box {
+	float: left;
+	width: 428px;
+	height: 116px;
+	background-color: #134D78;
+	background-image: url(../img/login-logo.png);
+	background-repeat: no-repeat;
+	background-position: 20px;
+	color: #a6afbc;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+
+.log-box p {
+	float: left;
+	margin-top: 45px;
+	margin-left: 40px;
+}
+
+.log-box p a {
+	text-decoration: none;
+	color: #8ea0b0;
+}
+
+.log-box>img {
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	margin-top: 24px;
+	margin-left: 37px;
+	float: left;
+}

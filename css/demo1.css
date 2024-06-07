@@ -1,0 +1,339 @@
+.iframe{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	left: 0;
+	border: none;
+	background-color: gray;
+}
+.ifr-head{
+	margin: 0 auto;
+	width: 100%;
+	height: 700px;
+	height: ;
+	transform: scale(0.9);
+/* 	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center; */
+	/* border: none; */
+}
+.page-head{
+	/* width: 100%; */
+/* 	margin: 100px 0px; */
+}
+body{
+	font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+	background-color: rgb(238,239,246);
+}
+.main{
+	margin-top: 500px;
+	width: 100%;
+	height: 1400px;
+	display: block;
+	position: absolute;
+	z-index: 5;
+}
+.main div{
+	/* border: grey dashed 1px; */
+}
+.content{
+	width: 1200px;
+	margin: 0px auto;
+	border: 2px solid #E8E8E8;
+	overflow: hidden;
+	background-color: rgb(238,239,246);
+	position: relative;
+	z-index: 2;
+}
+.title{
+	height: 60px;
+	background-color: rgb(238,239,246);
+	color: #464547;
+	font-size: 16px;
+}
+.title a{
+	color: #464547;
+}
+.address{
+	margin:20px
+}
+.address a{
+	color: black;
+}
+.address h1{
+    color: #323235;
+    margin: 0;
+    margin-top: 50px;
+    padding-left: 25px;
+    font: bold 20px/22px '\5FAE\8F6F\96C5\9ED1';
+    background: url(../img/icon_hero.png) no-repeat;
+}
+.icons{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-image: url(../img/sprite.png);
+	background-position: 0 -2px;
+	display: inline-block;
+	position: relative;
+	top: +5px;
+}
+
+.yxjs{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.yxjs img{
+	position: relative;
+	top: +5px;
+}
+
+.ul-nav{
+	/* background-color: white; */
+	height: 60px;
+	padding: 30px auto;
+	width: 100%;
+	border-radius: 3px;
+	list-style: none;
+	list-style-type: none;
+	position: relative;
+	left: -30px;
+}
+.ul-nav li{
+	display: list-item;
+	float: left;
+	width: 33%;
+	border-bottom: rgb(212,212,212) solid 3px;
+	text-align: center;
+}
+.ul-nav li:hover{
+	border-bottom: rgb(53,137,221) solid 3px;
+	font-weight: bold;
+}
+
+.ul-nav li:hover a{
+	color: rgb(53,137,221);
+}
+.ul-nav li a{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.herolist-box{
+	width: 1140px;
+	/* height: 1000px; */
+	margin: 0px auto;
+}
+.herolist-box .head{
+	width: 1140px;
+	height: 206px;
+	padding: 0px auto;
+	color: #686869;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	font-size: 14px;
+}
+.herolist-box .head table{
+	background-color: white;
+	border-radius: 5px;
+}
+.table-title{
+	font-size: 16px;
+	color: white;
+	background-color: rgb(44,136,226);
+}
+
+.herolist-box .head table td{
+	width: 100px;
+	height: 52px;
+	line-height: 52px;
+}
+.herolist-box .head table tr:nth-child(1){
+	height: 61px;
+}
+.herolist-box .head table td input{
+	width: 20px;
+	height: 20px;
+	margin-right: 7px;
+	position: relative;
+	top: +5px;
+}
+.search-box{
+	width: 240px;
+	height: 33px;
+	padding: 1px 2px;
+	border: rgb(238,239,246) solid 2px;
+	margin: auto;
+	position: relative;
+	top: +12px;
+}
+.search-box div{
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding: 0px auto;
+	position: relative;
+	left: +200px;
+	top: -25px;
+	border-left: rgb(213,213,213) solid 1px;
+}
+.search-box div>img{
+	position: relative;
+	left: -1px;
+	top: -6px;
+}
+.search-box input{
+	background-color: rgba(0,0,0,0);
+}
+.herolist-box .head table tr .td-search input{
+	float: left;
+	color: #464547;
+	width: 200px;
+	height: 24px; 
+	position: relative;
+	border: none;
+}
+
+.herolist{
+	font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    color: #323235;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    zoom: 1;
+    margin-right: -50px;
+    overflow: hidden;
+}
+.herolist li{
+	font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    color: #323235;
+    list-style: none;
+    float: left;
+    width: 87px;
+    margin-bottom: 34px;
+    margin-right: 30px;
+}
+.herolist li a{
+	list-style: none;
+    text-decoration: none;
+    color: #363636;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.herolist li a img{
+	color: #363636;
+    text-align: center;
+    display: block;
+    width: 83px;
+    height: 83px;
+    border: 2px solid #258DF2;
+    border-radius: 10px 0 10px 0;
+}
+
+.foot{
+	width: 100%;
+}
+.foot img{
+	width: 100%;
+}
+
+
+.ul-jn{
+	list-style: none;
+	list-style-type: none;
+	font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    color: #686869;
+    margin: 0;
+    list-style: none;
+    padding: 30px 0 0;
+    margin-left: -14px;
+    position: relative;
+    float: left;
+    width: 43%;
+    padding-left: 16px;
+    margin-right: 0;
+    border-right: 1px solid #F0F0F0;
+}
+.ul-jn li{
+    float: left;
+    width: 116px;
+    height: 120px;
+    margin-bottom: 22px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.ul-jn li img{
+	list-style: none;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 7px;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px 0 10px 0;
+    border: 3px solid #1E84E7;
+}
+.ul-jn li p{
+	list-style: none;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    margin: 0;
+}
+.big{
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.speell-title{
+    font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    color: #686869;
+    overflow: hidden;
+    zoom: 1;
+}
+.speell-title img{
+    display: block;
+    border: 0;
+    border-radius: 2px 2px 2px 2px;
+    float: left;
+    margin-right: 20px;
+}
+.spell-title h4{
+    font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    margin: 0;
+    /* float: left; */
+    width: 60%;
+    font-size: 16px;
+	font-weight: bold;
+    color: #00A383;
+    line-height: 30px;
+}
+.speell-title p{
+    font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    margin: 0;
+    /* float: left; */
+    width: 60%;
+    font-size: 16px;
+    color: #00A383;
+    line-height: 30px;
+}
+
+
+
+.spell-desc{
+    font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    padding: 20px 0;
+    line-height: 18px;
+    color: #333;
+    font-size: 14px;
+}

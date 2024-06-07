@@ -1,0 +1,558 @@
+/* 最顶端的logo行	 */
+.ost_box {
+	background: white;
+	width: 1500px;
+	background-image: url(../img/54.jpg), url(../img/ost-bg.png), url(../img/logo.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 540px -5px, 320px -44px, 1100px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.ost_box .twolink {
+	width: 230px;
+	height: 40px;
+	margin-left: 1140px;
+}
+
+.ost_box .twolink a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: rgb(70, 70, 70);
+}
+
+.ost_box .twolink a:hover {
+	color: rgb(255, 78, 0);
+}
+
+.ost_box .img-big {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	z-index: 1;
+	left: 500px;
+}
+
+.ost_box .img-big:hover {
+	cursor: pointer;
+	width: 700px;
+	height: 140px;
+	background-image: url(../img/55.jpg);
+	background-size: 100% 100%;
+	z-index: 10;
+}
+
+/* 导航栏的图标 */
+.img-logo {
+	position: absolute;
+	z-index: 1;
+	left: 100px;
+	top: 20px;
+	opacity: 1;
+}
+
+.img-logo:hover~.extend {
+	height: 300px;
+}
+
+/* 顶部背景 */
+.bg-top {
+	margin-top: -25px;
+	width: 1500px;
+	position: absolute;
+	background: url(../img/main-bg1.jpg) no-repeat;
+	background-position: center;
+	height: 800px;
+}
+
+/* 中部背景1 */
+.bg-middle1 {
+	width: 1500px;
+	margin-top: 749px;
+	background: url(../img/main-bg2.jpg) no-repeat;
+	background-position: center;
+	height: 800px;
+	text-align: center;
+}
+
+.username {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+}
+
+.username a {
+	text-decoration: none;
+	color: rgb(55, 155, 255);
+}
+
+.u-title1,
+.u-title2 {
+	margin: 0 auto;
+	width: 1000px;
+	height: 135px;
+}
+
+.choice-box {
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 1000px;
+	float: left;
+	height: 301px;
+}
+
+.choice {
+	cursor: pointer;
+	width: 251px;
+	border-radius: 50px;
+	height: 251px;
+	float: left;
+	margin-left: 62px;
+	margin-bottom: 40px;
+}
+
+.choice a {
+	cursor: pointer;
+	width: 251px;
+	border-radius: 50px;
+	height: 251px;
+	background-color: transparent;
+}
+
+.choice1 {
+	background-image: url(../img/icon-1.png);
+}
+
+.choice2 {
+	background-image: url(../img/icon-2.png);
+}
+
+.choice3 {
+	background-image: url(../img/icon-3.png);
+}
+
+.choice4 {
+	background-image: url(../img/icon-4.png);
+}
+
+.choice5 {
+	background-image: url(../img/icon-5.png);
+}
+
+.choice6 {
+	background-image: url(../img/icon-6.png);
+}
+
+.choice1:hover {
+	background-image: url(../img/white-1.png);
+}
+
+.choice2:hover {
+	background-image: url(../img/white-2.png);
+}
+
+.choice3:hover {
+	background-image: url(../img/white-3.png);
+}
+
+.choice4:hover {
+	background-image: url(../img/white-4.png);
+}
+
+.choice5:hover {
+	background-image: url(../img/white-5.png);
+}
+
+.choice6:hover {
+	background-image: url(../img/white-6.png);
+}
+
+/* 中部背景2 */
+.bg-middle2 {
+	width: 1500px;
+	background: url(../img/main-bg3.jpg) no-repeat;
+	background-position: center;
+	height: 708px;
+	text-align: center;
+	margin-top: ;
+}
+
+.u-title2>img {
+	margin-top: 80px;
+}
+
+.middle2-left,
+.middle2-right {
+	width: 500px;
+	height: 400px;
+	padding-top: 50px;
+	margin-top: 100px;
+	float: left;
+}
+
+.middle2-left {
+	border-right: 2px solid;
+	border-image: linear-gradient(#348DDC, #ccc, #348DDC) 30 30;
+	margin-left: 250px;
+}
+
+
+.left1,
+.right1 {
+	padding-top: 20px;
+}
+
+.left1 div {
+	width: 160px;
+	height: 160px;
+	float: left;
+}
+
+.choice7 {
+	margin-top: 20px;
+	margin-left: 60px;
+	background: url(../img/prop-1.png);
+}
+
+.choice8 {
+	margin-top: 20px;
+	margin-left: 50px;
+	background: url(../img/prop-2.png);
+}
+
+.choice9 {
+	margin-left: 60px;
+	margin-top: 20px;
+	background: url(../img/prop-3.png);
+}
+
+.choice10 {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 160px;
+	height: 160px;
+	background: url(../img/prop-4.png);
+}
+
+.choice7:hover {
+	background: url(../img/w-1.png);
+}
+
+.choice8:hover {
+	background: url(../img/w-2.png);
+}
+
+.choice9:hover {
+	background: url(../img/w-3.png);
+}
+
+.choice10:hover {
+	background: url(../img/w-4.png);
+}
+
+.choice7:hover,
+.choice8:hover,
+.choice9:hover,
+.choice10:hover {
+	cursor: pointer;
+}
+
+
+.bg-middle3 {
+	width: 1500px;
+	padding-top: 20px;
+	background: url(../img/main-bg4.jpg) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	height: 1400px;
+	text-align: center;
+}
+
+.bg-middle3 img:nth-child(2) {
+	margin-top: 40px;
+}
+
+.bg-middle3 .kingway {
+	width: 1000px;
+	height: 210px;
+	margin-left: 250px;
+	background: url(../img/king-way.jpg) center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+.bg-middle3 .kingway img {
+	cursor: pointer;
+	margin-left: 650px;
+	margin-top: 75px;
+}
+
+/* 搜索框 */
+
+.search {
+	/* padding-left: 20px; */
+	width: 1000px;
+	height: 46px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 250px;
+}
+
+#search-input {
+	size: 100px;
+	border: none;
+	background-color: transparent;
+	width: 920px;
+	height: 46px;
+	outline: none;
+	margin-left: 0;
+}
+
+#search-input::placeholder {
+	padding-left: 5px;
+	font-size: 14px;
+	font-family: "宋体";
+}
+
+.search div {
+	float: right;
+}
+
+.search a img {
+	margin-top: 10px;
+	margin-right: 10px;
+	/* width: 20px; */
+}
+
+
+/* 问题展开栏 */
+.changeQuestion {
+	margin-left: 250px;
+	text-align: right;
+	width: 1000px;
+	height: 50px;
+	margin-top: 60px;
+}
+
+.changeQuestion a {
+	
+	text-decoration: none;
+	color: rgb(116, 116, 116);
+}
+
+
+
+.question-list {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+	list-style: none;
+	margin-left: 210px;
+}
+
+.question-list li {
+	cursor: pointer;
+	border: 1px solid #ccc;
+	margin-bottom: 16px;
+	border-radius: 5px;
+}
+/* .question-list li:hover .u-td{
+	display: block;
+} */
+
+.question-list li .u-hd {
+	/* margin-top: 0; */
+	width: 100%;
+	height: 38px;
+	line-height: 22px;
+	text-indent: 20px;
+	font-size: 18px;
+	color: #2a6fa3;
+	position: relative;
+	z-index: 10;
+}
+
+.question-list .u-td p {
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+	color: #636363;
+	padding: 15px 0 15px;
+	vertical-align: middle;
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	border-top: 1px solid #e4e4e4;
+}
+
+.question-list .u-td {
+	overflow: hidden;
+	height: 0;
+}
+.question-list .u-td-active p {
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+	color: #636363;
+	padding: 15px 0 15px;
+	vertical-align: middle;
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	border-top: 1px solid #e4e4e4;
+}
+
+.question-list .u-td-active {
+	/* display: block; */
+}
+.feedback {
+	width: 1000px;
+	height: 210px;
+	text-align: left;
+	background: url(../img/feedback.jpg) center;
+	margin-left: 250px;
+	margin-bottom: 40px;
+}
+
+.feedback img {
+	cursor: pointer;
+	margin-left: 650px;
+	margin-top: 75px;
+}
+
+.footer,.footer_ied{
+	width: 1500px;
+}
+.footer{
+	overflow: hidden;
+	height: 300px;
+	text-align: center;
+	background-color: #ccc;
+	background-color: rgb(9,65,119);
+}
+.footer p{
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	color: #5591CE;
+}
+
+.footer-content{
+	margin: 0 auto;
+	/* background-color: #134D78; */
+	width: 1200px;
+	height: 200px;
+}
+
+.circle-button,.vx-picture{
+	position: absolute;
+	width: 165px;
+	height: 165px;
+	background-color: #ccc;
+	float: left;
+	border: 2px solid #1E90FF;
+	margin-left: 66px;
+	margin-top: 15px;
+}
+
+.ch1{
+	left: 160px;
+}
+.ch2{
+	left: 390px;
+}
+.ch3{
+	left: 608px;
+}
+.ch4{
+	left: 820px;
+}
+.ch5{
+	left: 1050px;
+}
+
+.circle-button{
+	border-radius: 100px;
+	border: 2px solid transparent;
+	background-image: url(../img/foot_2.png);
+	background-color: rgb(9,65,119);
+	background-position: -2px -4px;
+}
+
+.circle-button:hover{
+	width: 165px;
+	height: 165px;
+	border: none;
+	border: 2px solid transparent;
+	margin-top: 9px;
+	background: url(../img/foot_2.png) ;
+	background-position: -2px -3px;
+	transition: all 0.2s;
+}
+.vx-picture{
+	background-image: url(../img/wx.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.circle-button ul{
+	list-style: none;
+	margin-top: 36px;
+}
+.circle-button ul li{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: white;
+	margin-left: -36px;
+}
+.circle-button ul li:nth-child(1){
+	font-size: 26px;
+	font-weight: bold;
+	padding-bottom: 6px;
+}
+
+.circle-button ul li:not(:nth-child(1)){
+	padding-bottom: 3px;
+}
+
+.ch1 ul li:nth-child(1){
+	color:rgb(137,197,255) ;
+}
+
+.ch1 ul li:nth-child(1):hover{
+	color:white ;
+}
+.circle-button ul li:hover{
+	cursor: pointer;
+	color: rgb(153,153,153);
+}
+
+.footer_ied{
+	
+	padding-top: 18px;
+	height: 132px;
+	background-color: rgb(3,16,40);
+}
+.footer_ied p{
+	font-family: "microsoft yahei";
+	margin-bottom: -4px;
+	color: rgb(141,178,225);
+}
+
+.footer_ied p a{
+	font-family: "microsoft yahei";
+	color: rgb(141,178,225);
+	text-decoration: none;
+}
+.footer_ied p a:hover{
+	text-decoration: underline;
+	
+}
+
+.clearfix::after {
+	content: ".";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}

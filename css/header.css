@@ -1,0 +1,111 @@
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+	margin: 0;
+}
+
+.clearfix {
+	zoom: 1
+}
+
+.clearfix:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both
+}
+
+.header {
+	width: 100%;
+	height: 42px;
+	//background: red;
+	margin: 0px;
+	line-height: 42px;
+	overflow: hidden;
+}
+
+.header .header_list li {
+	float: left;
+	list-style-type: none;
+}
+
+.header .header_list .ost_blnk {
+	display: block;
+	height: 41px;
+	position: absolute;
+	left: 18%;
+	z-index: 9999;
+}
+
+.header .header_list .header_img2 {
+	position: relative;
+	left: 414px;
+	top: 1px;
+	z-index: 0;
+}
+
+.header .header_img_big {
+	display: none;
+	position: absolute;
+	left: 18%;
+	top: 0px;
+	z-index: 999;
+
+}
+
+.header .list_item1:hover .header_img_big {
+	display: block;
+}
+
+.header .header_list .health {
+	position: absolute;
+	right: 480px;
+
+}
+
+.header .header_list .rank {
+	position: absolute;
+	right: 350px;
+}
+
+.header .header_list .rank .down_icon {
+	width: 30px;
+	height: 30px;
+	//background: blue;
+	display: inline-block;
+	background-position: 0px 0px;
+	background-image: url(../img/icon_xia.png);
+	position: absolute;
+	top: 6px;
+	left: 112px;
+	transform: rotate(90deg);
+}
+
+.header .header_list .rank.down_icon_big {
+	width: 885px;
+	height: 390px;
+	display: none;
+	background: #EBEBEB;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.header .header_list .health_icon {
+	position: absolute;
+	left: -20px;
+	top: 11px;
+
+}
